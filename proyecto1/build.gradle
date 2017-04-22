@@ -3,8 +3,8 @@ apply plugin: 'eclipse'
 apply plugin: 'jacoco'
 
 version = '1.0'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+//sourceCompatibility = 1.8
+//targetCompatibility = 1.8
 
 dependencies{
 	testCompile project.ext.junit
